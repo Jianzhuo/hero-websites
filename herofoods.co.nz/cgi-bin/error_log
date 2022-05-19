@@ -1,0 +1,21 @@
+[20-Oct-2021 03:37:02 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [] does not comply with RFC 2822, 3.6.2. in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:310
+Stack trace:
+#0 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/S in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 310
+[20-Oct-2021 03:39:05 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [] does not comply with RFC 2822, 3.6.2. in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:310
+Stack trace:
+#0 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/S in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 310
+[20-Oct-2021 03:47:49 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [] does not comply with RFC 2822, 3.6.2. in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:310
+Stack trace:
+#0 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('')
+#1 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php(56): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/S in /home/dingpia1/public_html/herofoods.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 310

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^home/$ /index.php
+RewriteRule ^thin-sliced/$ /thin-sliced.php
+RewriteRule ^thick-sliced/$ /thick-sliced.php
+RewriteRule ^diced-cut/$ /diced-cut.php
+RewriteRule ^steak-cuts/$ /steak-cuts.php
+RewriteRule ^ready-to-eat/$ /readytoeat.php
+RewriteRule ^giftbox/$ /giftbox.php
+RewriteRule ^partnership/$ /partnership.php
+</IfModule>

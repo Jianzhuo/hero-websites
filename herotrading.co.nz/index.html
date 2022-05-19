@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hero International Trading Limited</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png"  href="favicon.jpg">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <meta name="facebook-domain-verification" content="ephoau7nau1b0uzxl36v2zrc5k2bxa" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6LWFB4M1Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6LWFB4M1Y5');
+  </script>
+  <script>
+    $(document).ready(function () {
+        $(document).on("scroll", onScroll);
+
+        //smoothscroll
+        $('a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            $(document).off("scroll");
+
+            $('a').each(function () {
+                $(this).removeClass('active');
+            })
+            $(this).addClass('active');
+
+            var target = this.hash,
+                menu = target;
+            $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top+2
+            }, 500, 'swing', function () {
+                window.location.hash = target;
+                $(document).on("scroll", onScroll);
+            });
+        });
+    });
+
+    function onScroll(event){
+        var scrollPos = $(document).scrollTop();
+        $('.navbar-nav a').each(function () {
+            var currLink = $(this);
+            var refElement = $(currLink.attr("href"));
+            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
+                $('.navbar-nav li a').removeClass("active");
+                currLink.addClass("active");
+            }
+            else{
+                currLink.removeClass("active");
+            }
+        });
+    }
+  </script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Hero International Trading</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#product" class="nav-link">Products</a></li>
+          <li class="nav-item"><a href="#certificate" class="nav-link">Certificates</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <a href="index-chinese.html" class="navbar-chinese">中文 <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="hero-wrap degree-right js-fullheight" id="home">
+    <div class="home-slider js-fullheight owl-carousel">
+      <div class="slider-item js-fullheight" style="background-image:url(images/bg_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center">
+            <div class="col-md-12 ftco-animate">
+              <div class="text">
+                <h1 class="mb-4">Welcome to <br> Hero International Trading!</h1>
+                <p>Experienced in Importers and Exporters of Seafood both Nationally and Internationally. Our speciality is to source items that others say are difficult or impossible to obtain. The range of products we trade are infinite.
+                  <br> We import/export a vast variety of seafood for value adding, further processing, the professional and amateur fishing sectors.
+                </p>
+                <p class="mb-0"><a href="#contact" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">More Info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(images/bg_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center">
+            <div class="col-md-12 ftco-animate">
+              <div class="text">
+                <h1 class="mb-4">Welcome to <br> Hero International Trading!</h1>
+                <p>Experienced in Importers and Exporters of Seafood both Nationally and Internationally. Our speciality is to source items that others say are difficult or impossible to obtain. The range of products we trade are infinite.
+                  <br> We import/export a vast variety of seafood for value adding, further processing, the professional and amateur fishing sectors.
+                </p>
+                <p class="mb-0"><a href="#contact" class="btn btn-primary py-md-3 py-2 px-2 px-md-4">More Info</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section about-section" id="about">
+    <div class="container">
+      <div class="about-line"></div>
+      <div class="row justify-content-center no-gutters">
+        <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+          <h2 class="mb-2">About us</h2>
+        </div>
+      </div>
+      <div class="row wrap-about my-5">
+        <div class="col-md-12 ftco-animate">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="text text-md-justify">
+                <p>Hero International Trading was founded in 2020.  The main business of the company is seafood trading. We have good business with many large-scale seafood suppliers locally and around the world, in order to acquire sustained and quality supply of seafood resources. We supply quality seafood to the segment of the industries ranges from wholesale distributors, restaurants, seafood eateries, caterers, factories, fast food chains, bulk purchase and local customers. We are in the frozen seafood industry that will provide you the superior quality seafood products. Maintaining the highest possible quality is an integral part of the Hero International Trading’s tradition.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="text text-md-justify">
+                <p>We ensure that all products marketed by Hero International Trading are superior quality. With more than 10 years experience and expertise in the seafood industry, Hero International Trading has the facilities, distribution infrastructure and skill manpower to provide frozen seafood supply needs for all customer establishments. This enables better control of product quality, delivery logistic and cost efficiency. The challenges and
+                  complication on seafood are on the handling, storage and inconsistent supply. We able to provide solution to customers by repacking, processing and ease for storage in order to minimise and overcome the impact during the period of shortage. We valued our customers and suppliers business relationships which hold an inseparable bond to growth and pursue prosperity together.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12 about-branding">
+              <p>OUR BRANDING</p><br>
+              <img src="images/brand-buffaloarm.jpg">
+              <img src="images/brand-nzwagyu.jpg">
+            </div>
+            <p class="mb-0"><a href="#" class="btn btn-primary py-md-3 py-2 px-2 px-md-4 mt-3">Contact Us</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-products" id="product">
+    <div class="row justify-content-center no-gutters">
+      <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+        <h2 class="mb-2">Our Products</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row no-gutters text-center">
+        <div class="product-item mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/product-mussel.jpg">
+          </div>
+          <h4>Greenshell Mussels</h4>
+        </div>
+        <div class="product-item mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/product-greenlandshrimp.jpg">
+          </div>
+          <h4>Greenland Cooked Shrimp</h4>
+        </div>
+        <div class="product-item mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/product-wagyu.jpg">
+          </div>
+          <h4>New Zealand Wagyu</h4>
+        </div>
+        <div class="col-md-12">
+          <p style="margin:10px auto;"><a href="#contact" class="btn btn-white py-md-3 py-2 px-2 px-md-4 mt-3">Enquiry</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-certificate" id="certificate">
+    <div class="row justify-content-center no-gutters">
+      <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+        <h2 class="mb-2">Certificates</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row no-gutters text-center">
+        <div class="cert-img mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/cert-1.jpg">
+          </div>
+        </div>
+        <div class="cert-img mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/cert-2.jpg">
+          </div>
+        </div>
+        <div class="cert-img mt-0">
+          <div class="row no-gutters align-items-center">
+            <img src="images/cert-4.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-contact" id="contact">
+    <div class="row justify-content-center no-gutters">
+      <div class="col-md-12 heading-section text-center ftco-animate mb-5">
+        <h2 class="mb-3">Contact Us</h2>
+      </div>
+    </div>
+    <div class="row ftco-animate mb-4">
+      <div class="contact-center">
+        <img src="images/hero-logo.png">
+        <h4>Hero International Trading Limited</h4>
+        <p><b>Auckland, New Zealand</b><br>
+          <span>Phone</span>: (64) 0800 66 11 99<br>
+          <span>Email </span>: <a href="mailto:sales@herointernational.co.nz">sales@herointernational.co.nz</a>
+        </p>
+      </div>
+      <!--<div class="col-md-6 contact-left">
+        <form action="send_email.php" class="p-4 p-md-5 contact-form" onsubmit="return send_check(this)" method="post">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="Email Address">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" placeholder="Subject">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <textarea name="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-6 contact-right p-md-5">
+        <h4>Hero International Trading Limited</h4>
+        <p><b>Auckland, New Zealand</b><br>
+          <span>Phone</span>: &nbsp;&nbsp;&nbsp; (64) 0800 66 11 99<br>
+          <span>Email </span>: &nbsp;&nbsp;&nbsp; <a href="mailto:sales@herointernational.co.nz">sales@herointernational.co.nz</a>
+        </p>
+      </div>-->
+    </div>
+    <div class="contact-copyright">
+      <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Hero International Trading Limited</p>
+    </div>
+  </section>
+
+
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function send_check(frm) {
+      var regemail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+      var regnum = /(^(\+?\-? *[0-9]+)([,0-9 ]*)([0-9 ])*$)|(^ *$)/;
+
+      if (frm.name.value == "") {
+        alert("Please enter your name.");
+        frm.name.focus();
+        return false;
+      }
+      if (frm.email.value == "") {
+        alert("Please enter your email.");
+        frm.email.focus();
+        return false;
+      }
+      if (frm.subject.value == "") {
+        alert("Please enter your subject.");
+        frm.subject.focus();
+        return false;
+      }
+      if (frm.message.value == "") {
+        alert("Please enter your message.");
+        frm.message.focus();
+        return false;
+      }
+    }
+  </script>
+
+</body>
+
+</html>

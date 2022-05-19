@@ -1,0 +1,8 @@
+[28-Aug-2021 00:00:45 UTC] PHP Fatal error:  Uncaught Swift_RfcComplianceException: Address in mailbox given [eliseharris3262@gmail.com
+] does not comply with RFC 2822, 3.6.2. in /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:310
+Stack trace:
+#0 /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(231): Swift_Mime_Headers_MailboxHeader->_assertValidAddress('eliseharris3262...')
+#1 /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(94): Swift_Mime_Headers_MailboxHeader->normalizeMailboxes(Array)
+#2 /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php(58): Swift_Mime_Headers_MailboxHeader->setNameAddresses(Array)
+#3 /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php(548): Swift_Mime_Headers_MailboxHeader->setFieldBodyModel(Array)
+#4 /home/dingpia1/public_html/nzwagyu.co.nz/v in /home/dingpia1/public_html/nzwagyu.co.nz/vendor/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php on line 310
