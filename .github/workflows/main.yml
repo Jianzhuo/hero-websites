@@ -46,7 +46,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
         script: |
-          cd cd /var/www
+          cd /var/www
           wget https://github.com/Jianzhuo/hero-websites/releases/latest/download/release.tgz
           tar -zxvf release.tgz
           rm -f release.tgz
