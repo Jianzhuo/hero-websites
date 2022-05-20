@@ -1,0 +1,52 @@
+name: release&deploy
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release-and-deploy:
+    name: 发布和部署
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: 拉取项目
+      uses: actions/checkout@main
+
+    - name: 打包
+      run: tar -zcvf release.tgz herofoods.co.nz herotrading.co.nz nzwagyu.co.nz
+
+    - name: 发布
+      id: create_release
+      uses: actions/create-release@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    - name: 上传
+      id: upload-release-asset
+      uses: actions/upload-release-asset@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./release.tgz
+        asset_name: release.tgz
+        asset_content_type: application/x-tgz
+
+    - name: 部署
+      uses: appleboy/ssh-action@main
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PASSWORD }}
+        port: ${{ secrets.PORT }}
+        script: |
+          cd cd /var/www
+          wget https://github.com/Jianzhuo/hero-websites/releases/latest/download/release.tgz
+          tar -zxvf release.tgz
+          rm -f release.tgz
