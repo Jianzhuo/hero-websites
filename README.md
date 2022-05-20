@@ -18,8 +18,8 @@ git push origin main
 
 ### Release & Deploy 
 ```sh
-# Indicate the version number
-$ git tag v0.1.0
+# Indicate the version number such as v1.0.1
+$ git tag v<the version number>
 
 # push to Release & Deploy 
 $ git push --tags
