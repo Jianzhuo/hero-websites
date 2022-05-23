@@ -34,11 +34,19 @@
 					<img src="images/shaved-roll.jpg">
 				</div>
 				<div class="col-md-5 blue-text product-description">
-					<h2 class="uppercase">Shaved Roll</h2>
+					<h2 class="uppercase">Shaved Meat Roll</h2>
 					<span class="product-range uppercase">Retail Range</span>
 					<p>100% Natural meat slice. Thinly sliced lamb, pork or marbled beef is the key ingredient in many popular recipes. Suitable for hot pot, korean bbq and stir fry.
 					<br><br>
 					Storage: Frozen (24 Months)</p>
+					<div class="product-website">
+						<a href="/download/shaved-meat-roll.pdf" download>
+							<div class="view-more slide_right">
+								<span class="lnr lnr-arrow-right"></span>
+								<p>Product Specification</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="row animate-box mb-30">
