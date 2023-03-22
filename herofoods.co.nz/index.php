@@ -21,7 +21,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<img src="images/fern-icon.png" class="fern-icon">
-							<h1 class="uppercase">Modern Processing & Repacking</h1>
+							<h1 class="uppercase">The Modern Processing & Repacking</h1>
 						</div>
 					</div>
 				</div>

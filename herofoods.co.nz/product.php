@@ -42,8 +42,8 @@
 					<div class="product-website">
 						<a href="/download/shaved-meat-roll.pdf" download>
 							<div class="view-more slide_right">
-								<span class="lnr lnr-arrow-right"></span>
-								<p>Product Specification</p>
+								<span class="lnr lnr-download"></span>
+								<p>Product Spec</p>
 							</div>
 						</a>
 					</div>
