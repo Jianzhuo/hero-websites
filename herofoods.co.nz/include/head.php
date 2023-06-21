@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Hero Foods | Modern Processing & Repacking in New Zealand</title>
+<title>Hero Foods | Curators of Fine Foods in New Zealand</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="" />
 <meta name="keywords" content="" />
@@ -41,7 +41,9 @@
   gtag('config', 'UA-171053654-2');
 </script>
 
-
-
 <!-- Modernizr JS -->
 <script src="js/modernizr-2.6.2.min.js"></script>
+
+<!-- Magnific Pop Up JS -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<link rel="stylesheet" href="css/lightbox.css">

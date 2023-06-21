@@ -7,7 +7,7 @@
 
 	<div class="herofoods-loader"></div>
 
-	<div id="page" class="inner-nav">
+	<div id="page" class="">
 	<?php include "include/navigation.php";?>
 
 	<div class="herofoods-about">
@@ -56,6 +56,7 @@
 					</div>
 				</div>
 				<div class="col-md-7 animate-box contact-form">
+					<p class="blue-text">Ask us anything or just say hi...</p>
 					<form method="post" action="submit_contactform.php" onsubmit="return checkform(this)">
 						<div class="row form-group">
 							<div class="col-md-6">
