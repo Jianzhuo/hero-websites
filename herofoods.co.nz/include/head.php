@@ -31,7 +31,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 
-<!-- Google tag (gtag.js) -->
+<!-- Global tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-GW6T3BGN8X"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
