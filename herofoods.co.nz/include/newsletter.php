@@ -1,11 +1,11 @@
-<div id="herofoods-newsletter" style="background-image:url(images/newsletter-banner-2.jpg); background-repeat:no-repeat; background-size:100%;background-repeat: no-repeat; background-attachment: fixed;">
+<div id="herofoods-newsletter">
   <div class="container">
     <div class="row animate-box">
       <div class="col-md-8 col-md-offset-2 text-center herofoods-heading">
           <h1 class="regular-title uppercase">first hand news</h1>
           <p>Subscribe To Our Newsletter So You Don't Miss Updates</p>
       </div>
-      <div class="col-md-9 col-md-offset-1">
+      <div class="col-md-8 col-md-offset-2">
 				<form class="subscribe-form" method="post" action="submit_subscribeform.php" onsubmit="return checkform(this)">
           <div class="row form-group">
             <div class="subscribe-name">
@@ -24,4 +24,8 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="product-ocean">
+  <div class="footer-wave" style=""></div>
 </div>
